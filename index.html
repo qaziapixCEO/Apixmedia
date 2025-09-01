@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apix Media</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1e1e2f;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #14141f;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #00bcd4;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            height: 60vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .services {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .services h3 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+        .service-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        .service {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .service:hover {
+            transform: translateY(-5px);
+        }
+        .service h4 {
+            margin-bottom: 10px;
+            color: #00bcd4;
+        }
+        footer {
+            background-color: #1e1e2f;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Apix Media</h1>
+        <p>Your Digital Growth Partner</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>We Design. We Strategize. We Grow.</h2>
+    </section>
+
+    <section id="services" class="services">
+        <h3>Our Services</h3>
+        <div class="service-list">
+            <div class="service">
+                <h4>Graphic Designing</h4>
+                <p>Eye-catching visuals and graphics to make your brand stand out in a crowded market.</p>
+            </div>
+            <div class="service">
+                <h4>Account Handling</h4>
+                <p>Complete social media account management to keep your audience engaged and growing.</p>
+            </div>
+            <div class="service">
+                <h4>Business Strategies</h4>
+                <p>Customized strategies tailored to boost your business and reach new customers.</p>
+            </div>
+            <div class="service">
+                <h4>Email Writing</h4>
+                <p>Professional and persuasive email campaigns to connect and convert your audience.</p>
+            </div>
+            <div class="service">
+                <h4>Poster Designing</h4>
+                <p>Creative posters designed for events, promotions, and branding with strong visual impact.</p>
+            </div>
+            <div class="service">
+                <h4>Billboard Designing</h4>
+                <p>Bold and effective billboard designs that grab attention and convey your message instantly.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Apix Media. All rights reserved.</p>
+    </footer>
+</body>
+</html>
